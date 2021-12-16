@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="69dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+
+        android:background="@color/Teal"
+        android:scaleType="matrix"
+        tools:srcCompat="@drawable/img01th" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="1"
+        android:background="@color/Teal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/White"
+            android:textSize="@dimen/fontsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:textColor="@color/Yellow"
+            android:textSize="@dimen/fontsize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
